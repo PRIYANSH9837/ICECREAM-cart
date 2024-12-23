@@ -1,0 +1,160 @@
+:root {
+  --primary-color: #5D4E6D;
+  --dark-bg: #2D3640;
+  --text-light: #FFFFFF;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 1rem 2rem;
+}
+
+.hero-section {
+  min-height: 80vh;
+  padding: 4rem 0;
+}
+
+.product-card {
+  background-color: rgba(45, 54, 64, 0.8);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 2rem;
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2rem 0;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonial-heading {
+  font-size: 2rem;
+  color: #e6e6fa;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.author-details {
+  text-align: left;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.author-role {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.stars {
+  color: #ffd700;
+  margin-top: 10px;
+}
+
+.discount-banner {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #e6e6fa;
+  background-color: #444a63;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #4c3c72;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.banner-text {
+  max-width: 60%;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e6e6fa;
+}
+
+.banner-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #dcdcdc;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #5a4db1;
+}
+
+.banner-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px; }
